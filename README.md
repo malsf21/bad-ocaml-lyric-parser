@@ -1,4 +1,4 @@
-# ocaml-lyric-parser
+# bad-ocaml-lyric-parser
 
 just some smol scripts to get used to ocaml, don't mind me
 

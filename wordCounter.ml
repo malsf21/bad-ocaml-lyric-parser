@@ -4,6 +4,7 @@ let words text =
     let remove_non_lyric = function
         | c when Char.is_alphanum c -> c
         | '\'' -> '\''
+        | '-' -> '-'
         | _ -> ' '
     in
     let only_lyric = String.map ~f:remove_non_lyric text in
